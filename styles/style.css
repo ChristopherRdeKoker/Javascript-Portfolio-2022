@@ -117,4 +117,5 @@ section {
   font-size: 1.2rem;
   color: var(--color-grey-2);
   pointer-events: none;
+  caret-color: transparent;
 }/*# sourceMappingURL=style.css.map */
