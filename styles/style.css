@@ -143,6 +143,7 @@ section {
 }
 
 .header-content {
+  caret-color: transparent;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   height: 100%;
@@ -166,8 +167,8 @@ section {
 }
 .header-content .left-header .image {
   border-radius: var(--br-sm-2);
-  height: 90%;
-  width: 68%;
+  height: 65%;
+  width: 43%;
   margin-left: 4rem;
   background-color: var(--color-black);
   transition: all 0.4s ease-in-out;
@@ -175,6 +176,7 @@ section {
 .header-content .left-header .image img {
   height: 100%;
   width: auto;
+  border-radius: var(--br-sm-2);
   -o-object-fit: cover;
      object-fit: cover;
   transition: all 0.4s ease-in-out;
@@ -250,6 +252,18 @@ section {
   height: 2px;
   background-color: var(--color-grey-5);
 }
+.about-container .left-about {
+  padding-right: 5rem;
+}
+.about-container .left-about p {
+  line-height: 2rem;
+  padding: 1rem;
+  color: var(--color-grey-1);
+}
+.about-container .left-about h4 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
 
 .btn-con {
   display: flex;
@@ -317,4 +331,30 @@ section {
   transform: translate(-50%, -50%);
   font-weight: 800;
   font-size: 6.3rem;
+}
+
+.timeline-title {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 3.5rem 0;
+  position: relative;
+}
+.timeline-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background-color: var(--color-grey-5);
+}
+.timeline-title::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background-color: var(--color-grey-5);
 }/*# sourceMappingURL=style.css.map */
