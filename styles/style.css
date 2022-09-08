@@ -312,6 +312,7 @@ section {
 
 .main-title {
   text-align: center;
+  caret-color: transparent;
 }
 .main-title h2 {
   position: relative;
@@ -486,4 +487,53 @@ section {
 .portfolio-item:hover .hover-items {
   opacity: 1;
   transform: scale(1);
+}
+
+.git-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding-top: 4.5rem;
+  padding-bottom: 5rem;
+}
+
+.github-image {
+  caret-color: transparent;
+  border-radius: var(--br-sm-2);
+  margin-left: 4rem;
+  transition: all 0.4s ease-in-out;
+}
+.github-image img {
+  height: auto;
+  width: 550px;
+  border-radius: var(--br-sm-2);
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.4s ease-in-out;
+  filter: grayscale(100%);
+}
+.github-image img:hover {
+  filter: grayscale(0);
+}
+
+.left-gitinfo {
+  caret-color: transparent;
+  padding-right: 2rem;
+}
+.left-gitinfo p {
+  line-height: 2rem;
+  padding: 1rem;
+  color: var(--color-grey-2);
+}
+.left-gitinfo h4 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 1rem;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  padding-bottom: 1.4rem;
+}
+.left-gitinfo .btn-con {
+  padding-left: 0.5rem;
+  padding-top: 2rem;
 }/*# sourceMappingURL=style.css.map */
