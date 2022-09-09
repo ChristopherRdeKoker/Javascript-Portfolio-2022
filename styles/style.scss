@@ -57,9 +57,18 @@ a {
 }
 
 header {
+  // min-height: 100vh;
+  width: 100%;
   height: 100vh;
+  min-height: 100vh;
+  //this somehow fixed the media query issue
+  font-family: "Poppins", sans-serif;
+
   color: var(--color-white);
   overflow: hidden; //incase something overflows
+  @media screen and (max-width: 610px) {
+    min-height: 100vh;
+  }
 }
 
 section {

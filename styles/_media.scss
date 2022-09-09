@@ -1,9 +1,9 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
   header {
     padding: 0;
   }
   header .right-header {
-    padding: 2rem !important;
+    padding: 2rem 2rem 0 2rem !important;
   }
 
   .theme-btn {
@@ -14,33 +14,80 @@
   .header-content {
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
+    min-height: 100vh;
+    width: auto;
+    padding-bottom: 0;
   }
 
   .left-header {
+    align-self: center;
+    margin-top: 2rem;
+
     .h-shape {
       display: none;
     }
+    .image {
+      margin-bottom: 3rem;
+    }
+    // image {
+    //   align-items: flex-start;
+    //   justify-content: flex-start;
+    // }
   }
 
   .right-header {
     grid-row: 1;
     width: 90%;
     margin: 0 auto;
+    padding: 0;
     .name {
       font-size: 2.5rem !important;
     }
   }
 
   .header-content .left-header .image {
-    margin: 0 auto;
+    // margin: 0 auto;
     width: 90%;
     background-color: var(--color-primary);
+
     img {
-      margin-left: 15%;
+      margin-left: auto;
       margin-right: auto;
     }
   }
 
+  .about-container {
+    grid-template-columns: 1fr;
+    .right-about {
+      padding-top: 2.5rem;
+      grid-template-columns: 1fr;
+    }
+    .left-about {
+      padding-right: 0;
+      p {
+        padding-left: 0;
+      }
+    }
+  }
+
+  .timeline {
+    grid-template-columns: 1fr;
+    padding-bottom: 6rem;
+  }
+
+  .section {
+    padding: 2rem 2.5rem;
+    // margin-bottom: 5rem;
+  }
+
+  .sec1 {
+    margin-bottom: 8rem;
+  }
+
+  .timeline-title::before,
+  .timeline-title::after {
+    width: 30%;
+  }
   .controls {
     top: auto;
     bottom: 0;
@@ -54,4 +101,10 @@
       margin: 1rem 0.3rem;
     }
   }
+}
+
+.bg-text {
+  line-height: 4.2rem !important ;
+  font-size: 5.5rem !important;
+  letter-spacing: 1.1rem !important;
 }
