@@ -23,6 +23,24 @@
   --box-shadow-1: 0 3px 15px rgba(0, 0, 0, 0.3);
 }
 
+.light-mode {
+  --color-primary: #ede8e8;
+  --color-secondary: #ed5946ea;
+  --color-third: #25a159c1;
+
+  --color-white: #454e56;
+  --color-black: #000;
+  --color-grey-0: #f8f8f8;
+  --color-grey-1: #6c7983;
+  --color-grey-2: #6c7983;
+  --color-grey-3: #6c7983;
+  --color-grey-4: #454e56;
+  // --color-grey-5: #b1aeae;
+  --color-grey-5: #c0bcbc;
+
+  --color-grey-6: #12181b;
+}
+
 body {
   background-color: var(--color-primary);
   font-family: "Poppins", sans-serif;
@@ -147,6 +165,16 @@ section {
   justify-content: center;
   cursor: pointer;
   background-color: var(--color-grey-4);
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.1s ease-in-out;
+  &:active {
+    transform: translateY(-3px);
+  }
+  i {
+    font-size: 1.4rem;
+    color: var(--color-grey-2);
+    pointer-events: none;
+  }
 }
 
 // .theme-btn {

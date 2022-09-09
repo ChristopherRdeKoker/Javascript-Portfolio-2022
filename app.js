@@ -2,6 +2,7 @@ const sections = document.querySelectorAll(".section");
 const sectBtns = document.querySelectorAll(".controls");
 const sectBtn = document.querySelectorAll(".control");
 const allSections = document.querySelector(".main-content");
+const themeBtn = document.querySelector(".theme-btn");
 
 //functions
 function PageTransitions() {
@@ -32,6 +33,12 @@ function PageTransitions() {
       const element = document.getElementById(id);
       element.classList.add("active");
     }
+  });
+
+  //Toggle theme
+  themeBtn.addEventListener("click", () => {
+    let element = document.body;
+    element.classList.toggle("light-mode");
   });
 }
 
