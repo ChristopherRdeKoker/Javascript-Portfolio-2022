@@ -567,8 +567,8 @@ section {
 ///////////////////////////////////////////////////////////////////////
 //Section 4 Github
 .git-container {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+  display: flex;
+  grid-template-columns: 2fr 4fr;
   padding-top: 4.5rem;
   padding-bottom: 5rem;
   // width: 80%;
@@ -576,7 +576,6 @@ section {
 
 .github-image {
   caret-color: transparent; //this was a lifesaver
-
   border-radius: var(--br-sm-2);
   // height: 90%;
   // width: 68%;
@@ -601,7 +600,6 @@ section {
 
 .left-gitinfo {
   caret-color: transparent; //this was a lifesaver
-
   padding-right: 2rem;
   p {
     line-height: 2rem;
