@@ -134,6 +134,40 @@ section {
   }
 }
 
+.theme-btn {
+  caret-color: transparent;
+  top: 5%;
+  right: 3%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: var(--color-grey-4);
+}
+
+// .theme-btn {
+//   caret-color: transparent;
+//   padding: 1rem;
+//   cursor: pointer;
+//   background-color: var(--color-grey-4);
+//   width: 55px;
+//   height: 55px;
+//   border-radius: 50%;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   margin: 0.7rem 0;
+//   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+//   i {
+//     font-size: 1.2rem;
+//     color: var(--color-grey-2);
+//     pointer-events: none;
+//   }
+// }
 // HEADER-CONTENT
 .header-content {
   caret-color: transparent; //Maybe del, was to test
@@ -575,6 +609,19 @@ section {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        p {
+          margin: 0.3rem 0 !important;
+          padding: 0 !important;
+        }
+        .icon {
+          display: grid;
+          grid-template-columns: 40px 1fr;
+          i {
+            display: flex;
+            align-items: center;
+            font-size: 1.3rem;
+          }
+        }
       }
     }
   }

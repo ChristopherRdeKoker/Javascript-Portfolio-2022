@@ -143,6 +143,21 @@ section {
   caret-color: transparent;
 }
 
+.theme-btn {
+  caret-color: transparent;
+  top: 5%;
+  right: 3%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: var(--color-grey-4);
+}
+
 .header-content {
   caret-color: transparent;
   display: grid;
@@ -558,6 +573,19 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.contact-content-container .left-contact .contact-info .contact-item p {
+  margin: 0.3rem 0 !important;
+  padding: 0 !important;
+}
+.contact-content-container .left-contact .contact-info .contact-item .icon {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+}
+.contact-content-container .left-contact .contact-info .contact-item .icon i {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
 }
 .contact-content-container .right-contact {
   flex: 3;
