@@ -165,3 +165,109 @@
     }
   }
 }
+
+@media screen and (max-width: 1432px) {
+  //   // header {
+  //   //   padding: 0 !important;
+  //   // }
+
+  //   .section {
+  //     padding: 7rem 11rem;
+  //   }
+
+  .contact-content-container {
+    flex-direction: column;
+    padding-bottom: 6rem;
+    .right-contact {
+      margin-left: 0;
+      margin-top: 2.5rem;
+    }
+  }
+
+  .contact-content-container .right-contact .i-c-2 {
+    flex-direction: column;
+  }
+  .contact-content-container .right-contact .i-c-2 :last-child {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+
+  .git-container {
+    flex-direction: column;
+    .github-image {
+      margin: 0;
+      margin-top: 2rem;
+      // margin-right: 1rem;
+      img {
+        width: 500px;
+        align-self: center;
+        justify-self: center;
+      }
+    }
+  }
+
+  .portfolios {
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 6rem;
+  }
+
+  .portfolio-text {
+    margin-top: 2rem;
+  }
+
+  //   .header-content {
+  //     grid-template-columns: 1fr;
+  //     padding-bottom: 6rem;
+  //     min-height: 100vh;
+  //     width: auto;
+  //     padding-bottom: 0;
+  //   }
+
+  //   .left-header {
+  //     align-self: center;
+  //     margin-top: 2rem;
+
+  //     .h-shape {
+  //       display: none;
+  //     }
+  //     .image {
+  //       margin-bottom: 3rem;
+  //     }
+  //     // image {
+  //     //   align-items: flex-start;
+  //     //   justify-content: flex-start;
+  //     // }
+  //   }
+
+  //   .right-header {
+  //     grid-row: 1;
+  //     width: 90%;
+  //     margin: 0 auto;
+  //     padding: 0;
+  //     .name {
+  //       font-size: 2.5rem !important;
+  //     }
+  //   }
+
+  //   .header-content .left-header .image {
+  //     // margin: 0 auto;
+  //     width: 90%;
+  //     background-color: var(--color-primary);
+
+  //     img {
+  //       margin-left: auto;
+  //       margin-right: auto;
+  //     }
+  //   }
+}
+
+@media screen and (max-width: 1000px) {
+  .portfolios {
+    grid-template-columns: 1fr;
+    padding-bottom: 6rem;
+  }
+
+  .portfolio-text {
+    margin-top: 2rem;
+  }
+}

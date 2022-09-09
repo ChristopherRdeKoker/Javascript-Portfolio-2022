@@ -195,7 +195,7 @@ section {
   caret-color: transparent;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  height: 100%;
+  min-height: 100vh;
 }
 .header-content .left-header {
   display: flex;
@@ -787,5 +787,50 @@ section {
     width: 500px;
     align-self: center;
     justify-self: center;
+  }
+}
+@media screen and (max-width: 1432px) {
+  .contact-content-container {
+    flex-direction: column;
+    padding-bottom: 6rem;
+  }
+  .contact-content-container .right-contact {
+    margin-left: 0;
+    margin-top: 2.5rem;
+  }
+  .contact-content-container .right-contact .i-c-2 {
+    flex-direction: column;
+  }
+  .contact-content-container .right-contact .i-c-2 :last-child {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+  .git-container {
+    flex-direction: column;
+  }
+  .git-container .github-image {
+    margin: 0;
+    margin-top: 2rem;
+  }
+  .git-container .github-image img {
+    width: 500px;
+    align-self: center;
+    justify-self: center;
+  }
+  .portfolios {
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 6rem;
+  }
+  .portfolio-text {
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .portfolios {
+    grid-template-columns: 1fr;
+    padding-bottom: 6rem;
+  }
+  .portfolio-text {
+    margin-top: 2rem;
   }
 }/*# sourceMappingURL=style.css.map */
