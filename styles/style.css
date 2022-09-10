@@ -480,6 +480,7 @@ section {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 15px;
+  border: 3px solid black;
 }
 .portfolios .portfolio-item .hover-items {
   width: 100%;
