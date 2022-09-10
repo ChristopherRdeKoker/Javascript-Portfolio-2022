@@ -1,3 +1,40 @@
+@media screen and (max-width: 360px) {
+  header {
+    padding: 0;
+  }
+  .section {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .sec1 {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .header-content {
+    width: 360px !important;
+    .left-header {
+      .image {
+        padding-bottom: 6rem !important;
+        margin: 0 !important;
+        width: 360px !important;
+        height: 380px !important;
+      }
+    }
+    .right-header {
+      padding: 0 !important;
+      margin: 1rem 1rem !important;
+      .name {
+        font-size: 1.9rem !important;
+        width: 330px !important;
+      }
+      p {
+        font-size: 1rem !important;
+        width: 330px !important;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 680px) {
   header {
     padding: 0;

@@ -653,6 +653,40 @@ section {
   justify-content: flex-start;
 }
 
+@media screen and (max-width: 360px) {
+  header {
+    padding: 0;
+  }
+  .section {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .sec1 {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .header-content {
+    width: 360px !important;
+  }
+  .header-content .left-header .image {
+    padding-bottom: 6rem !important;
+    margin: 0 !important;
+    width: 360px !important;
+    height: 380px !important;
+  }
+  .header-content .right-header {
+    padding: 0 !important;
+    margin: 1rem 1rem !important;
+  }
+  .header-content .right-header .name {
+    font-size: 1.9rem !important;
+    width: 330px !important;
+  }
+  .header-content .right-header p {
+    font-size: 1rem !important;
+    width: 330px !important;
+  }
+}
 @media screen and (max-width: 680px) {
   header {
     padding: 0;
