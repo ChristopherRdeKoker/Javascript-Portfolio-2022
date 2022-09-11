@@ -1,192 +1,4 @@
-@media screen and (min-width: 390px) {
-  section {
-    padding: 0;
-    margin: 0;
-  }
-  .main-content {
-    margin: 0;
-    padding: 0;
-  }
-  header {
-    height: 100%;
-    .header-content {
-      width: auto;
-      min-width: 360px;
-      grid-template-columns: 1fr;
-      // padding-bottom: 2rem;
-      min-height: 100vh;
-      width: auto;
-      padding-bottom: 6rem;
-
-      .left-header {
-        grid-row: 2;
-        align-items: center;
-        justify-content: center;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-
-        .h-shape {
-          display: none;
-        }
-        .image {
-          margin: 0;
-          height: 100%;
-          display: flex;
-          justify-content: center;
-
-          img {
-            margin-left: auto;
-            margin-right: auto;
-            height: 300px;
-            filter: grayscale(0%);
-          }
-        }
-      }
-      .right-header {
-        grid-row: 1;
-        padding: 0;
-        width: 90%;
-        margin: 2rem auto;
-        margin-bottom: 2rem;
-        padding: 1rem 1rem 0 1rem;
-        .btn-con {
-          .main-btn {
-            margin-left: 2rem;
-            // padding: 0 auto;
-            // width: 230px;
-          }
-        }
-        p {
-          line-height: 2.1rem;
-          word-spacing: 0.2rem;
-        }
-      }
-    }
-  }
-  .theme-btn {
-    width: 50px;
-    height: 50px;
-  }
-  .controls {
-    top: auto;
-    bottom: 0;
-    flex-direction: row; //or initial
-    justify-content: center;
-    left: 50%;
-    transform: translate(-50%);
-    width: 100%;
-    background-color: var(--color-grey-5);
-    .control {
-      margin: 0.8rem 0.3rem;
-    }
-  }
-  ///////////////////////////sec2
-  ///
-  ///
-
-  .about-container {
-    grid-template-columns: 1fr;
-    padding: 0;
-    display: block;
-    // width: 300px;
-
-    .left-about {
-      padding-right: 0;
-      margin: 2rem;
-      margin-top: 6rem;
-      h4 {
-        font-size: 1.5rem;
-      }
-      .btn-con {
-        a {
-          margin: 0;
-        }
-      }
-    }
-    .right-about {
-      grid-template-columns: 1fr;
-      .about-item {
-        width: 90%;
-        margin-left: auto;
-        border: 1px solid var(--color-secondary);
-        margin-right: auto;
-      }
-    }
-  }
-  .sec2 {
-    margin-top: 4.5rem;
-  }
-  .timeline-title::before,
-  .timeline-title::after {
-    width: 25%;
-  }
-  .timeline {
-    grid-template-columns: 1fr;
-    margin-bottom: 4rem;
-    margin-left: 2rem;
-    .timeline-item {
-      width: 86%;
-    }
-  }
-  ////////////////////////////////////
-  .portfolio-text {
-    padding: 1rem;
-  }
-  .portfolios {
-    grid-template-columns: 1fr;
-    margin-bottom: 6rem;
-    .portfolio-item {
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-  /////////////////////////////////
-  ///
-  .github {
-    .main-title {
-      margin-top: 5rem;
-      h2 {
-        font-weight: 1200;
-      }
-      .bg-text {
-        opacity: 0.5;
-      }
-    }
-  }
-  .git-container {
-    flex-direction: column;
-    margin: 0 1rem;
-
-    .left-gitInfo {
-      flex: 1;
-    }
-    .github-image {
-      margin: 2rem 0;
-      flex: 2;
-      img {
-        width: 100%;
-      }
-    }
-  }
-  .btn-con {
-    .main-btn {
-      margin-left: 5rem;
-    }
-  }
-
-  ///////////////////////
-  .left-contact {
-    padding: 2rem;
-  }
-  .contact-container {
-    margin-top: 2rem;
-  }
-  .contact-content-container {
-    flex-direction: column;
-  }
-}
-@media screen and (min-width: 900pc) {
+@media screen and (min-width: 1200px) {
   * {
     margin: 0;
     padding: 0;
@@ -888,4 +700,194 @@
   }
 
   @import "./media";
+}
+
+///////////////////////////////////////
+@media screen and (min-width: 360px) and (max-width: 420px) {
+  section {
+    padding: 0;
+    margin: 0;
+  }
+  .main-content {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    height: 100%;
+    .header-content {
+      width: auto;
+      min-width: 360px;
+      grid-template-columns: 1fr;
+      // padding-bottom: 2rem;
+      min-height: 100vh;
+      width: auto;
+      padding-bottom: 6rem;
+
+      .left-header {
+        grid-row: 2;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+
+        .h-shape {
+          display: none;
+        }
+        .image {
+          margin: 0;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+
+          img {
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            filter: grayscale(0%);
+          }
+        }
+      }
+      .right-header {
+        grid-row: 1;
+        padding: 0;
+        width: 90%;
+        margin: 2rem auto;
+        margin-bottom: 2rem;
+        padding: 1rem 1rem 0 1rem;
+        .btn-con {
+          .main-btn {
+            margin-left: 2rem;
+            // padding: 0 auto;
+            // width: 230px;
+          }
+        }
+        p {
+          line-height: 2.1rem;
+          word-spacing: 0.2rem;
+        }
+      }
+    }
+  }
+  .theme-btn {
+    width: 50px;
+    height: 50px;
+  }
+  .controls {
+    top: auto;
+    bottom: 0;
+    flex-direction: row; //or initial
+    justify-content: center;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    background-color: var(--color-grey-5);
+    .control {
+      margin: 0.8rem 0.3rem;
+    }
+  }
+  ///////////////////////////sec2
+  ///
+  ///
+
+  .about-container {
+    grid-template-columns: 1fr;
+    padding: 0;
+    display: block;
+    // width: 300px;
+
+    .left-about {
+      padding-right: 0;
+      margin: 2rem;
+      margin-top: 6rem;
+      h4 {
+        font-size: 1.5rem;
+      }
+      .btn-con {
+        a {
+          margin: 0;
+        }
+      }
+    }
+    .right-about {
+      grid-template-columns: 1fr;
+      .about-item {
+        width: 90%;
+        margin-left: auto;
+        border: 1px solid var(--color-secondary);
+        margin-right: auto;
+      }
+    }
+  }
+  .sec2 {
+    margin-top: 4.5rem;
+  }
+  .timeline-title::before,
+  .timeline-title::after {
+    width: 25%;
+  }
+  .timeline {
+    grid-template-columns: 1fr;
+    margin-bottom: 4rem;
+    margin-left: 2rem;
+    .timeline-item {
+      width: 86%;
+    }
+  }
+  ////////////////////////////////////
+  .portfolio-text {
+    padding: 1rem;
+  }
+  .portfolios {
+    grid-template-columns: 1fr;
+    margin-bottom: 6rem;
+    .portfolio-item {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  /////////////////////////////////
+  ///
+  .github {
+    .main-title {
+      margin-top: 5rem;
+      h2 {
+        font-weight: 1200;
+      }
+      .bg-text {
+        opacity: 0.5;
+      }
+    }
+  }
+  .git-container {
+    flex-direction: column;
+    margin: 0 1rem;
+
+    .left-gitInfo {
+      flex: 1;
+    }
+    .github-image {
+      margin: 2rem 0;
+      flex: 2;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .btn-con {
+    .main-btn {
+      margin-left: 5rem;
+    }
+  }
+
+  ///////////////////////
+  .left-contact {
+    padding: 2rem;
+  }
+  .contact-container {
+    margin-top: 2rem;
+  }
+  .contact-content-container {
+    flex-direction: column;
+  }
 }
