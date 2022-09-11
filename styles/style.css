@@ -1353,7 +1353,7 @@ section {
   header .header-content .left-header .image img {
     margin-left: auto;
     margin-right: auto;
-    height: 500px;
+    height: 600px;
     filter: grayscale(0%);
   }
   header .header-content .right-header {
@@ -1391,6 +1391,7 @@ section {
   }
   .about-container .left-about h4 {
     font-size: 1.5rem;
+    margin-right: 8rem;
   }
   .about-container .left-about .btn-con a {
     margin: 0;

@@ -788,7 +788,7 @@
           img {
             margin-left: auto;
             margin-right: auto;
-            height: 500px;
+            height: 600px;
             filter: grayscale(0%);
           }
         }
@@ -836,6 +836,7 @@
       margin-right: 3rem;
       h4 {
         font-size: 1.5rem;
+        margin-right: 8rem;
       }
       .btn-con {
         a {
@@ -923,6 +924,7 @@
     align-items: center;
     .left-gitInfo {
       margin: 0 4rem;
+      // margin-left: 10rem;
       // margin-left: 3rem;
     }
   }
