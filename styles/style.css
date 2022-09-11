@@ -241,7 +241,7 @@ section {
   padding-right: 18rem;
 }
 .header-content .right-header .name {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 .header-content .right-header .name span {
   color: var(--color-secondary);
@@ -249,6 +249,7 @@ section {
 .header-content .right-header p {
   margin: 1.5rem 0;
   line-height: 2rem;
+  font-size: 1.1rem;
 }
 
 .about-container {
