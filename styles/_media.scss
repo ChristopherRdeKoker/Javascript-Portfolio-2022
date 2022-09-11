@@ -135,4 +135,35 @@
       margin-right: auto;
     }
   }
+  /////////////////////////////////
+  ///
+  .github {
+    .main-title {
+      margin-top: 5rem;
+      h2 {
+        font-weight: 1200;
+      }
+      .bg-text {
+        opacity: 0.5;
+      }
+    }
+  }
+  .git-container {
+    flex-direction: column;
+    margin: 0 1rem;
+
+    .left-gitInfo {
+      flex: 1;
+      h4 {
+        // padding: 0;
+      }
+    }
+    .github-image {
+      margin: 2rem 0;
+      flex: 2;
+      img {
+        width: 100%;
+      }
+    }
+  }
 }

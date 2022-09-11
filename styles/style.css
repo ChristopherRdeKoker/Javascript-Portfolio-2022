@@ -775,4 +775,27 @@ section {
     margin-left: auto;
     margin-right: auto;
   }
+  .github .main-title {
+    margin-top: 5rem;
+  }
+  .github .main-title h2 {
+    font-weight: 1200;
+  }
+  .github .main-title .bg-text {
+    opacity: 0.5;
+  }
+  .git-container {
+    flex-direction: column;
+    margin: 0 1rem;
+  }
+  .git-container .left-gitInfo {
+    flex: 1;
+  }
+  .git-container .github-image {
+    margin: 2rem 0;
+    flex: 2;
+  }
+  .git-container .github-image img {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
