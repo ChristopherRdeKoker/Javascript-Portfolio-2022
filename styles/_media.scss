@@ -93,8 +93,14 @@
     .left-about {
       padding-right: 0;
       margin: 2rem;
+      margin-top: 6rem;
       h4 {
         font-size: 1.5rem;
+      }
+      .btn-con {
+        a {
+          margin: 0;
+        }
       }
     }
     .right-about {
@@ -108,7 +114,7 @@
     }
   }
   .sec2 {
-    margin-top: 3rem;
+    margin-top: 4.5rem;
   }
   .timeline-title::before,
   .timeline-title::after {
@@ -130,7 +136,7 @@
     grid-template-columns: 1fr;
     margin-bottom: 6rem;
     .portfolio-item {
-      width: 90%;
+      width: 80%;
       margin-left: auto;
       margin-right: auto;
     }
@@ -154,9 +160,6 @@
 
     .left-gitInfo {
       flex: 1;
-      h4 {
-        // padding: 0;
-      }
     }
     .github-image {
       margin: 2rem 0;
@@ -165,5 +168,21 @@
         width: 100%;
       }
     }
+  }
+  .btn-con {
+    .main-btn {
+      margin-left: 5rem;
+    }
+  }
+
+  ///////////////////////
+  .left-contact {
+    padding: 2rem;
+  }
+  .contact-container {
+    margin-top: 2rem;
+  }
+  .contact-content-container {
+    flex-direction: column;
   }
 }

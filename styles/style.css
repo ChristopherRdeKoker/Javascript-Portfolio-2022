@@ -735,9 +735,13 @@ section {
   .about-container .left-about {
     padding-right: 0;
     margin: 2rem;
+    margin-top: 6rem;
   }
   .about-container .left-about h4 {
     font-size: 1.5rem;
+  }
+  .about-container .left-about .btn-con a {
+    margin: 0;
   }
   .about-container .right-about {
     grid-template-columns: 1fr;
@@ -749,7 +753,7 @@ section {
     margin-right: auto;
   }
   .sec2 {
-    margin-top: 3rem;
+    margin-top: 4.5rem;
   }
   .timeline-title::before,
 .timeline-title::after {
@@ -771,7 +775,7 @@ section {
     margin-bottom: 6rem;
   }
   .portfolios .portfolio-item {
-    width: 90%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -797,5 +801,17 @@ section {
   }
   .git-container .github-image img {
     width: 100%;
+  }
+  .btn-con .main-btn {
+    margin-left: 5rem;
+  }
+  .left-contact {
+    padding: 2rem;
+  }
+  .contact-container {
+    margin-top: 2rem;
+  }
+  .contact-content-container {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */
