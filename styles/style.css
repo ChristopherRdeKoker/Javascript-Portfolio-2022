@@ -878,7 +878,7 @@ section {
   .about-container {
     grid-template-columns: 1fr 1.2fr;
     width: 100%;
-    padding-left: 1rem;
+    padding-left: 4rem;
   }
   .about-container .left-about {
     padding: 0;
@@ -905,10 +905,11 @@ section {
   .timeline-title::before,
 .timeline-title::after {
     width: 35%;
+    margin-left: 2rem;
   }
   .timeline {
     width: 80%;
-    margin-left: 3.5rem;
+    margin-left: 5.5rem;
   }
   #portfolio > div.main-title {
     margin-top: 2rem;
@@ -951,7 +952,7 @@ section {
     margin: 0 4rem;
   }
   #github > div.git-container > div.left-gitinfo {
-    margin-left: 3rem;
+    margin-left: 8rem;
     margin-bottom: 2rem;
   }
   #github > div.git-container > div.left-gitinfo > div {
@@ -1073,7 +1074,7 @@ section {
     margin: 0 4rem;
   }
   #github > div.git-container > div.left-gitinfo {
-    margin-left: 3rem;
+    margin-left: 8rem;
     margin-bottom: 2rem;
   }
   #github > div.git-container > div.left-gitinfo > div {
@@ -1385,15 +1386,22 @@ section {
     padding-right: 0;
     margin: 2rem;
     margin-top: 6rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
   .about-container .left-about h4 {
     font-size: 1.5rem;
   }
   .about-container .left-about .btn-con a {
     margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
   }
   .about-container .right-about {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    grid-gap: 1rem;
   }
   .about-container .right-about .about-item {
     width: 90%;

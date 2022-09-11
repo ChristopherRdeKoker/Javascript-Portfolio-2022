@@ -247,7 +247,7 @@
   .about-container {
     grid-template-columns: 1fr 1.2fr;
     width: 100%;
-    padding-left: 1rem;
+    padding-left: 4rem;
     .left-about {
       h4 {
         margin-left: 1rem;
@@ -277,10 +277,11 @@
   .timeline-title::before,
   .timeline-title::after {
     width: 35%;
+    margin-left: 2rem;
   }
   .timeline {
     width: 80%;
-    margin-left: 3.5rem;
+    margin-left: 5.5rem;
   }
   //////////////////////////////////////////////
   ///
@@ -327,7 +328,7 @@
     }
   }
   #github > div.git-container > div.left-gitinfo {
-    margin-left: 3rem;
+    margin-left: 8rem;
     margin-bottom: 2rem;
   }
 
@@ -465,7 +466,7 @@
     }
   }
   #github > div.git-container > div.left-gitinfo {
-    margin-left: 3rem;
+    margin-left: 8rem;
     margin-bottom: 2rem;
   }
 
@@ -831,17 +832,24 @@
       padding-right: 0;
       margin: 2rem;
       margin-top: 6rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
       h4 {
         font-size: 1.5rem;
       }
       .btn-con {
         a {
           margin: 0;
+          margin-top: 1rem;
+          margin-bottom: 2rem;
         }
       }
     }
     .right-about {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      grid-gap: 1rem;
       .about-item {
         width: 90%;
         margin-left: auto;
