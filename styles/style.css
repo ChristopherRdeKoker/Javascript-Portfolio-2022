@@ -1317,4 +1317,188 @@ section {
   .contact-container .contact-content-container {
     flex-direction: column;
   }
+}
+@media screen and (min-width: 721px) and (max-width: 999px) {
+  section {
+    padding: 0;
+    margin: 0;
+  }
+  header {
+    height: 100%;
+  }
+  header .header-content {
+    width: auto;
+    min-width: 360px;
+    grid-template-columns: 1fr;
+    min-height: 100vh;
+    width: auto;
+  }
+  header .header-content .left-header {
+    grid-row: 2;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  header .header-content .left-header .h-shape {
+    display: none;
+  }
+  header .header-content .left-header .image {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  header .header-content .left-header .image img {
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    filter: grayscale(0%);
+  }
+  header .header-content .right-header {
+    grid-row: 1;
+    padding: 0;
+    width: 70%;
+    margin: 2rem auto;
+    padding: 1rem 1rem 0 1rem;
+  }
+  header .header-content .right-header .btn-con .main-btn {
+    margin-left: 2rem;
+  }
+  header .header-content .right-header .name {
+    font-size: 2.5rem;
+  }
+  header .header-content .right-header p {
+    line-height: 2.1rem;
+    word-spacing: 0.2rem;
+  }
+  .theme-btn {
+    width: 50px;
+    height: 50px;
+  }
+  .about-container {
+    grid-template-columns: 1fr;
+    padding: 0;
+    display: block;
+  }
+  .about-container .left-about {
+    padding-right: 0;
+    margin: 2rem;
+    margin-top: 6rem;
+  }
+  .about-container .left-about h4 {
+    font-size: 1.5rem;
+  }
+  .about-container .left-about .btn-con a {
+    margin: 0;
+  }
+  .about-container .right-about {
+    grid-template-columns: 1fr;
+  }
+  .about-container .right-about .about-item {
+    width: 90%;
+    margin-left: auto;
+    border: 1px solid var(--color-secondary);
+    margin-right: auto;
+  }
+  .sec2 {
+    margin-top: 4.5rem;
+  }
+  .timeline-title::before,
+.timeline-title::after {
+    width: 25%;
+  }
+  .timeline {
+    grid-template-columns: 1fr;
+    margin-bottom: 4rem;
+    margin-left: 2rem;
+  }
+  .timeline .timeline-item {
+    width: 86%;
+  }
+  #portfolio > div.main-title {
+    margin-top: 5rem;
+  }
+  #portfolio > p {
+    margin-top: 5rem;
+    width: 75%;
+    margin-left: 4.5rem;
+  }
+  .portfolio {
+    padding: 0;
+    margin: 0;
+  }
+  .portfolio-text {
+    padding: 1rem;
+    margin-top: 2rem;
+    color: var(--color-grey-2);
+    line-height: 1.5rem;
+  }
+  .portfolios {
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 6rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  .portfolios .portfolio-item {
+    width: 90%;
+  }
+  #github {
+    margin: 0;
+    padding: 0;
+  }
+  #github > div.main-title {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+  #github > div.main-title h2 {
+    font-weight: 800;
+  }
+  .git-container {
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+  }
+  .git-container .left-gitInfo {
+    margin: 0 4rem;
+  }
+  #github > div.git-container > div.left-gitinfo {
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+  }
+  #github > div.git-container > div.left-gitinfo > div {
+    justify-content: CENTER;
+    align-items: center;
+  }
+  #github > div.git-container > div.github-image {
+    width: 800px;
+    margin-left: 20rem;
+  }
+  .contact {
+    padding: 0;
+    margin: 5rem 0;
+  }
+  .contact .contact-container {
+    margin-left: 5rem;
+    width: 90%;
+  }
+  .contact .contact-container .contact-content-container {
+    margin-top: 2rem;
+    width: 90%;
+  }
+  .contact .contact-container .contact-content-container .left-contact .contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact .contact-container .contact-content-container .left-contact .contact-info .contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1rem;
+    padding-top: 1rem;
+  }
+  .contact .contact-container .contact-content-container .left-contact .contact-info .contact-item p {
+    color: var(--color-grey-2);
+  }
 }/*# sourceMappingURL=style.css.map */
