@@ -1519,7 +1519,7 @@ section {
     color: var(--color-grey-2);
   }
 }
-@media (orientation: landscape) {
+@media screen and (max-width: 914px) and (orientation: landscape) {
   .theme-btn {
     left: 3%;
   }
