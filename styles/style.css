@@ -1518,4 +1518,9 @@ section {
   .contact .contact-container .contact-content-container .left-contact .contact-info .contact-item p {
     color: var(--color-grey-2);
   }
+}
+@media (orientation: landscape) {
+  .theme-btn {
+    left: 3%;
+  }
 }/*# sourceMappingURL=style.css.map */
