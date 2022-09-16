@@ -1519,7 +1519,7 @@ section {
     color: var(--color-grey-2);
   }
 }
-@media screen and (max-width: 914px) and (orientation: landscape) {
+@media screen and (max-width: 1000px) and (orientation: landscape) {
   .controls {
     margin-top: 0.4rem;
   }
