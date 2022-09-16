@@ -1520,6 +1520,9 @@ section {
   }
 }
 @media screen and (max-width: 914px) and (orientation: landscape) {
+  .controls {
+    margin-top: 0.75rem;
+  }
   .theme-btn {
     left: 3%;
   }
