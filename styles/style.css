@@ -1521,9 +1521,15 @@ section {
 }
 @media screen and (max-width: 914px) and (orientation: landscape) {
   .controls {
-    margin-top: 0.75rem;
+    margin-top: 0.4rem;
+  }
+  .control {
+    margin: 0.5rem 0 !important;
   }
   .theme-btn {
+    margin-top: 0.75rem;
     left: 3%;
+    width: 60px;
+    height: 60px;
   }
 }/*# sourceMappingURL=style.css.map */
